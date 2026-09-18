@@ -1,0 +1,64 @@
+services:
+  # ----------------------------------------------------------------------------
+  # Production Service: High-performance, isolated, self-healing Nginx container
+  # ----------------------------------------------------------------------------
+  rapidrental-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: rapidrental-prod
+    restart: unless-stopped
+    ports:
+      - "3001:80"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1/healthz"]
+      interval: 20s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+        reservations:
+          cpus: "0.2"
+          memory: 128M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ----------------------------------------------------------------------------
+  # Development Service: Isolated hot-reloading dev container
+  # Run via: docker compose --profile dev up rapidrental-dev
+  # ----------------------------------------------------------------------------
+  rapidrental-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: rapidrental-dev
+    profiles: ["dev"]
+    restart: unless-stopped
+    ports:
+      - "8082:8081"
+    environment:
+      - NODE_ENV=development
+      - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+    volumes:
+      - ./app:/app/app
+      - ./components:/app/components
+      - ./constants:/app/constants
+      - ./context:/app/context
+      - ./data:/app/data
+      - ./services:/app/services
+      - ./config:/app/config
+      - ./assets:/app/assets
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -1,0 +1,222 @@
+[
+  {
+    "docId": "vehicle_1",
+    "price_24hr": 550,
+    "createdAt": "2026-09-13T09:02:13.797Z",
+    "type": "Scooty",
+    "status": "available",
+    "overtime": "50/Hr",
+    "pricing": {
+      "6Hr": 220,
+      "7Days": 2100,
+      "3Hr": 120,
+      "24Hr": 550,
+      "12Hr": 350
+    },
+    "price_3hr": 120,
+    "price_7days": 2100,
+    "price_12hr": 350,
+    "deposit": 500,
+    "id": 1,
+    "price_6hr": 220,
+    "name": "Activa 3G"
+  },
+  {
+    "docId": "vehicle_10",
+    "id": 10,
+    "price_7days": 3450,
+    "price_3hr": 200,
+    "deposit": 1000,
+    "price_12hr": 550,
+    "createdAt": "2026-09-13T09:02:17.952Z",
+    "name": "Ns Pulsar",
+    "type": "Bike",
+    "status": "available",
+    "price_6hr": 360,
+    "overtime": "70/Hr",
+    "price_24hr": 860,
+    "pricing": {
+      "3Hr": 200,
+      "7Days": 3450,
+      "24Hr": 860,
+      "6Hr": 360,
+      "12Hr": 550
+    }
+  },
+  {
+    "docId": "vehicle_2",
+    "name": "Jupiter/J-2",
+    "status": "available",
+    "price_3hr": 120,
+    "overtime": "50/Hr",
+    "price_24hr": 550,
+    "createdAt": "2026-09-13T09:02:14.218Z",
+    "pricing": {
+      "12Hr": 350,
+      "24Hr": 550,
+      "3Hr": 120,
+      "7Days": 2100,
+      "6Hr": 220
+    },
+    "id": 2,
+    "price_7days": 2100,
+    "price_6hr": 220,
+    "deposit": 1,
+    "price_12hr": 350,
+    "type": "Scooty"
+  },
+  {
+    "docId": "vehicle_3",
+    "name": "Maestro Edge",
+    "id": 3,
+    "overtime": "60/Hr",
+    "deposit": 800,
+    "price_24hr": 620,
+    "price_6hr": 280,
+    "price_7days": 2450,
+    "createdAt": "2026-09-13T09:02:14.585Z",
+    "pricing": {
+      "7Days": 2450,
+      "3Hr": 150,
+      "12Hr": 450,
+      "24Hr": 620,
+      "6Hr": 280
+    },
+    "price_3hr": 150,
+    "price_12hr": 450,
+    "status": "available",
+    "type": "Scooty"
+  },
+  {
+    "docId": "vehicle_4",
+    "deposit": 800,
+    "price_24hr": 620,
+    "createdAt": "2026-09-13T09:02:14.994Z",
+    "name": "Maestro",
+    "id": 4,
+    "price_3hr": 150,
+    "overtime": "60/Hr",
+    "pricing": {
+      "24Hr": 620,
+      "3Hr": 150,
+      "12Hr": 440,
+      "6Hr": 280,
+      "7Days": 2450
+    },
+    "type": "Scooty",
+    "price_12hr": 440,
+    "price_6hr": 280,
+    "status": "available",
+    "price_7days": 2450
+  },
+  {
+    "docId": "vehicle_5",
+    "overtime": "60/Hr",
+    "id": 5,
+    "price_6hr": 280,
+    "deposit": 800,
+    "type": "Scooty",
+    "price_24hr": 620,
+    "price_7days": 2450,
+    "status": "available",
+    "name": "Avaitor",
+    "price_3hr": 150,
+    "price_12hr": 450,
+    "createdAt": "2026-09-13T09:02:15.358Z",
+    "pricing": {
+      "6Hr": 280,
+      "7Days": 2450,
+      "12Hr": 450,
+      "24Hr": 620,
+      "3Hr": 150
+    }
+  },
+  {
+    "docId": "vehicle_6",
+    "id": 6,
+    "name": "Activa 4G",
+    "createdAt": "2026-09-13T09:02:15.735Z",
+    "price_24hr": 620,
+    "overtime": "60/Hr",
+    "deposit": 800,
+    "price_3hr": 150,
+    "pricing": {
+      "6Hr": 270,
+      "24Hr": 620,
+      "7Days": 2450,
+      "12Hr": 420,
+      "3Hr": 150
+    },
+    "price_12hr": 420,
+    "price_7days": 2450,
+    "price_6hr": 270,
+    "status": "available",
+    "type": "Scooty"
+  },
+  {
+    "docId": "vehicle_7",
+    "id": 7,
+    "deposit": 800,
+    "status": "available",
+    "price_6hr": 280,
+    "overtime": "60/Hr",
+    "price_12hr": 450,
+    "name": "TVS Wego",
+    "createdAt": "2026-09-13T09:02:16.092Z",
+    "type": "Scooty",
+    "pricing": {
+      "24Hr": 620,
+      "3Hr": 150,
+      "12Hr": 450,
+      "7Days": 3450,
+      "6Hr": 280
+    },
+    "price_3hr": 150,
+    "price_7days": 3450,
+    "price_24hr": 620
+  },
+  {
+    "docId": "vehicle_8",
+    "overtime": "60/Hr",
+    "status": "available",
+    "price_3hr": 150,
+    "createdAt": "2026-09-13T09:02:16.541Z",
+    "name": "Glamour",
+    "price_12hr": 450,
+    "pricing": {
+      "7Days": 2450,
+      "6Hr": 270,
+      "3Hr": 150,
+      "24Hr": 620,
+      "12Hr": 450
+    },
+    "price_7days": 2450,
+    "id": 8,
+    "price_6hr": 270,
+    "type": "Bike",
+    "deposit": 800,
+    "price_24hr": 620
+  },
+  {
+    "docId": "vehicle_9",
+    "name": "Discover",
+    "overtime": "60/Hr",
+    "price_6hr": 270,
+    "price_12hr": 450,
+    "price_7days": 2450,
+    "pricing": {
+      "3Hr": 150,
+      "7Days": 2450,
+      "6Hr": 270,
+      "24Hr": 620,
+      "12Hr": 450
+    },
+    "createdAt": "2026-09-13T09:02:17.593Z",
+    "status": "available",
+    "type": "Bike",
+    "id": 9,
+    "price_3hr": 150,
+    "deposit": 800,
+    "price_24hr": 620
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "docId": "RR-BLR-83207",
+    "pickupHub": {
+      "longitude": 77.6245,
+      "landmark": "Near Sony World Signal, 80ft Road",
+      "operatingHours": "07:30 AM - 10:30 PM",
+      "address": "#482, 1st Cross, 5th Block, Koramangala, Bengaluru, Karnataka 560095",
+      "latitude": 12.9352,
+      "phone": "+91 80 4719 3201",
+      "distance": "1.2 km away",
+      "name": "Koramangala 5th Block Hub",
+      "availableBikes": 8,
+      "id": "hub-koramangala"
+    },
+    "dlNumber": "KA01 20210048912",
+    "dropTime": "14 Sept 2026, 12:00 am",
+    "updatedAt": "2026-09-12T17:32:52.884Z",
+    "fare": {
+      "effectiveHours": 24,
+      "deposit": 500,
+      "baseFare": 550,
+      "overtimeCost": 0,
+      "totalPayable": 1089,
+      "addonsCost": 49,
+      "discount": 100,
+      "packageTier": "24 Hours (1 Day)",
+      "overtimeHours": 0,
+      "taxGst": 90
+    },
+    "dropHub": {
+      "landmark": "Near Sony World Signal, 80ft Road",
+      "address": "#482, 1st Cross, 5th Block, Koramangala, Bengaluru, Karnataka 560095",
+      "availableBikes": 8,
+      "operatingHours": "07:30 AM - 10:30 PM",
+      "phone": "+91 80 4719 3201",
+      "id": "hub-koramangala",
+      "name": "Koramangala 5th Block Hub",
+      "distance": "1.2 km away",
+      "longitude": 77.6245,
+      "latitude": 12.9352
+    },
+    "odometerStart": 13981,
+    "riderPhone": "+91 98765 43210",
+    "pickupOtp": "5051",
+    "pickupTime": "13 Sept 2026, 12:00 am",
+    "addons": {
+      "mobileMount": false,
+      "damageProtection": true,
+      "extraHelmet": false
+    },
+    "riderName": "Rahul Sharma",
+    "status": "ACTIVE",
+    "createdAt": "2026-09-12T17:32:51.532Z",
+    "hours": 24,
+    "id": "RR-BLR-83207",
+    "vehicle": {
+      "pricing": {
+        "7Days": 2100,
+        "6Hr": 220,
+        "12Hr": 350,
+        "24Hr": 550,
+        "3Hr": 120
+      },
+      "mileage": "50 kmpl",
+      "tag": "Most Popular",
+      "fuelCapacity": "5.3 Litres",
+      "overtime": "50/Hr",
+      "engineCc": "110cc",
+      "name": "Activa 3G",
+      "features": [
+        "Underseat Storage (18L)",
+        "Combi Brake System (CBS)",
+        "Tubeless Tyres",
+        "Easy Kick & Self Start"
+      ],
+      "tripCount": 1840,
+      "transmission": "Automatic",
+      "topSpeed": "85 km/h",
+      "type": "Scooty",
+      "description": "India's beloved two-wheeler legend. Known for rock-solid reliability, smooth suspension, and effortless city handling. Perfect for Bangalore traffic, daily errands, and airport trips.",
+      "deposit": 500,
+      "id": 1,
+      "image": null,
+      "rating": 4.8,
+      "fuelType": "Petrol"
+    },
+    "appliedCoupon": "RAPID100"
+  }
+]
