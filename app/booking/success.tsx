@@ -3,12 +3,12 @@ import {
   View,
   Text,
   StyleSheet,
-  SafeAreaView,
   TouchableOpacity,
   ScrollView,
   Platform,
   StatusBar,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors } from '@/constants/Colors';
@@ -22,14 +22,14 @@ export default function BookingSuccessScreen() {
 
   const bookingId = (params.bookingId as string) || activeBooking?.id || 'RR-BLR-84291';
   const otp = (params.otp as string) || activeBooking?.pickupOtp || '4819';
-  const vehicleName = (params.vehicleName as string) || activeBooking?.vehicle.name || 'RapidRental Ride';
+  const vehicleName = (params.vehicleName as string) || activeBooking?.vehicle?.name || 'RapidRental Ride';
 
   const handleGoToRides = () => {
     router.replace('/(tabs)/rides' as any);
   };
 
   const handleGoHome = () => {
-    router.replace('/(tabs)/' as any);
+    router.replace('/(tabs)' as any);
   };
 
   return (

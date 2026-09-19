@@ -62,6 +62,20 @@ export default function RootLayout() {
               title: '24/7 Roadside Assistance & SOS',
             }}
           />
+          <Stack.Screen
+            name="auth"
+            options={{
+              title: 'Rider Authentication',
+              headerBackTitle: 'Back',
+            }}
+          />
+          <Stack.Screen
+            name="admin"
+            options={{
+              title: 'Admin Fleet Control',
+              headerBackTitle: 'Back',
+            }}
+          />
         </Stack>
       </ThemeProvider>
     </RentalProvider>

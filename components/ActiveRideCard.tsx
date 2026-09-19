@@ -42,7 +42,7 @@ export const ActiveRideCard: React.FC<ActiveRideCardProps> = ({
     setReturnModalVisible(false);
     Alert.alert(
       'Vehicle Returned Successfully! 🎉',
-      `Deposit of ₹${booking.fare.deposit} initiated for instant refund to your account.`
+      `Deposit of ₹${booking.fare?.deposit ?? 0} initiated for instant refund to your account.`
     );
   };
 
@@ -121,7 +121,7 @@ export const ActiveRideCard: React.FC<ActiveRideCardProps> = ({
       <View style={styles.depositNotice}>
         <Ionicons name="shield-checkmark" size={15} color={Colors.successDark} />
         <Text style={styles.depositNoticeText}>
-          Refundable Deposit: <Text style={{ fontWeight: '800' }}>₹{booking.fare.deposit}</Text> (Refunded upon drop-off)
+          Refundable Deposit: <Text style={{ fontWeight: '800' }}>₹{booking.fare?.deposit ?? 0}</Text> (Refunded upon drop-off)
         </Text>
       </View>
 
@@ -256,7 +256,7 @@ export const ActiveRideCard: React.FC<ActiveRideCardProps> = ({
               <Ionicons name="wallet-outline" size={24} color={Colors.successDark} />
               <View style={{ flex: 1 }}>
                 <Text style={styles.refundTitle}>Instant Deposit Refund</Text>
-                <Text style={styles.refundAmount}>₹{booking.fare.deposit}</Text>
+                <Text style={styles.refundAmount}>₹{booking.fare?.deposit ?? 0}</Text>
                 <Text style={styles.refundNote}>
                   Will be credited to your original UPI/Bank method within 2-24 hours.
                 </Text>
